@@ -1,0 +1,37 @@
+# ----- Data files (too large / licence requires separate download) -----
+data/raw/
+data/processed/*.db
+data/processed/*.csv
+data/processed/*.parquet
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ----- Virtual environments -----
+venv/
+env/
+.venv/
+
+# ----- Jupyter Notebook checkpoints -----
+.ipynb_checkpoints/
+
+# ----- IDE / Editor -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Misc -----
+*.log
