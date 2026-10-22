@@ -251,4 +251,8 @@ GROUP BY CustomerType;
 2. **"Why did you avoid calling total customer spending 'Customer Lifetime Value'?"**  
    *Answer:* CLV requires a predictive model incorporating future retention probabilities, gross margins, and discount rates. Calling historical spend CLV is misleading; I reported it truthfully as *historical observed customer spend*.
 3. **"How did you ensure consistency between Python and SQL?"**  
-   *Answer:* I wrote automated reconciliation checks in `tests/reconcile_sql_python.py` comparing Python aggregations with SQLite window functions and CTEs, proving exact matches on revenue, order counts, and monthly trends down to the penny.
+   *Answer:* I wrote automated reconciliation checks in `src/run_sql_and_reconcile.py` comparing Python aggregations with SQLite window functions and CTEs, proving exact matches on revenue, order counts, and monthly trends down to the penny.
+
+---
+
+*Repository maintained and authored by [@vandana19u](https://github.com/vandana19u).*
